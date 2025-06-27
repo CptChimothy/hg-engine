@@ -1236,7 +1236,7 @@ evodata SPECIES_ELECTRODE
     terminateevodata
 
 evodata SPECIES_EXEGGCUTE
-    evolution EVO_STONE, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR
+    evolution EVO_LEVEL, 34, SPECIES_EXEGGUTOR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2748,7 +2748,7 @@ evodata SPECIES_SKARMORY
     terminateevodata
 
 evodata SPECIES_HOUNDOUR
-    evolution EVO_LEVEL, 24, SPECIES_HOUNDOOM
+    evolution EVO_LEVEL, 34, SPECIES_HOUNDOOM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
