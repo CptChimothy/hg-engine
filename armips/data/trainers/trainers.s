@@ -84,7 +84,7 @@ trainerdata 1, "Silver"
         pokemon SPECIES_EXEGGCUTE
         item ITEM_NONE
         move MOVE_BARRAGE
-        MOVE_HYPNOSIS
+        move MOVE_HYPNOSIS
         move MOVE_UPROAR
         move MOVE_BULLET_SEED
         ability ABILITY_HARVEST
@@ -2474,28 +2474,55 @@ trainerdata 62, "Samuel"
         move MOVE_ROCK_SMASH
         move MOVE_NONE
         ability ABILITY_QUICK_FEET
-        
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
-        pokemon SPECIES_SANDSHREW
+        level 20
+        pokemon SPECIES_CUBONE
+        move MOVE_BONE_CLUB
+        move MOVE_TAIL_WHIP
+        move MOVE_ROCK_SLIDE
+        move MOVE_NONE
+        setivs 31, 31, 31, 31, 0, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 252, 252, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 8
-        pokemon SPECIES_SPEAROW
+        level 20
+        pokemon SPECIES_CHATOT
+        move MOVE_PECK
+        move MOVE_MIRROR_MOVE
+        move MOVE_SUPERSONIC
+        move MOVE_OMINOUS_WIND
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 8
-        pokemon SPECIES_SPEAROW
+        level 20
+        pokemon SPECIES_CHATOT
+        move MOVE_PECK
+        move MOVE_MIRROR_MOVE
+        move MOVE_SUPERSONIC
+        move MOVE_OMINOUS_WIND
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 252, 126, 0, 0, 126
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
     endparty
 
